@@ -1,8 +1,4 @@
-from person import Person
-from person_manager import PersonList
-from app import UserInterface
+from app import App
 
-
-
-ui = UserInterface()
-ui.main_menu()
+app = App()
+app.run()
